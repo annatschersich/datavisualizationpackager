@@ -1,0 +1,15 @@
+Package: datavisualizationpackager
+Type: Package
+Title: datavisualizationpackager contais three functions for three different types of data visualization
+Version: 0.1.0
+Author: Anna Tschersich
+Maintainer: Anna Tschersich <anna.tschersich@gmx.de>
+Description: This datavisualization package contains three distinct functions for data visualization: animated_lineplot: Generates an animated line plot of your data, boxplot_with_mean: Creates a boxplot overlaid with a line representing the mean of your data, scatterplot_with_regression: Produces a scatter plot with the corresponding regression line of your data.
+License: MIT
+Imports: ggplot2, gganimate
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
