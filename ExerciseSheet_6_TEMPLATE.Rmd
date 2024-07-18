@@ -7,3 +7,9 @@ output: distill::distill_article
 ---
 
 I decided to create a package for datavisualization because I really enjoy doing visualizations. I wanted to cover as much as possible of the possibilities of datavisualization with my package, therefore I created three functions for three different types of visualization: one function to create scatterplot with the corresponding regressionline, another function to create the boxplot with a line representing the mean and in order to also offer an animated option in my package, I decided to use a function that does an animated lineplot.
+
+https://github.com/annatschersich/datavisualizationpackager.git
+```{r}
+remotes:: install_github("annatschersich/datavisualizationpackager")
+```
+
